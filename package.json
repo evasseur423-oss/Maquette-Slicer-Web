@@ -1,0 +1,31 @@
+{
+  "name": "maquette-slicer-web",
+  "version": "1.0.0",
+  "description": "Studio web autonome (100% navigateur) de tranchage et fabrication de maquettes d'architecture physiques",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve-web.cjs",
+    "start": "node scripts/serve-web.cjs",
+    "build": "node scripts/build-web.js",
+    "preview": "node scripts/serve-web.cjs --dist"
+  },
+  "keywords": [
+    "architecture",
+    "maquette",
+    "slicer",
+    "threejs",
+    "web",
+    "laser-cutting",
+    "svg",
+    "dxf",
+    "pdf"
+  ],
+  "author": "Maquette Slicer Studio",
+  "license": "ISC",
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.2",
+    "leaflet": "^1.9.4",
+    "three": "^0.165.0"
+  }
+}
